@@ -1,4 +1,3 @@
-// src/components/Academics.js
 import React from 'react';
 import { motion } from 'framer-motion';
 
