@@ -16,7 +16,7 @@ const Home = () => {
         </div>
         <img
           src={bg}
-          className="absolute w-full h-full object-cover"
+          className="absolute w-full h-full object-cover  pointer-events-none"
         />
       </div>
       <div className="h-auto px-2 mt-5 ">
