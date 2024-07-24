@@ -1,6 +1,6 @@
-// src/pages/Home.js
 import React from 'react';
 import Carousel from '../components/Carousel';
+import bg from '../../public/images/background.png';
 
 const Home = () => {
   return (
@@ -15,7 +15,7 @@ const Home = () => {
           </p>
         </div>
         <img
-          src="../../public/images/background.png"
+          src={bg}
           className="absolute w-full h-full object-cover"
         />
       </div>
